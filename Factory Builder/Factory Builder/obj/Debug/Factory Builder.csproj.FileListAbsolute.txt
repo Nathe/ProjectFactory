@@ -1,0 +1,17 @@
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\bin\Debug\Factory Builder.exe.config
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\bin\Debug\Factory Builder.exe
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\bin\Debug\Factory Builder.pdb
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\obj\Debug\Factory Builder.csprojResolveAssemblyReference.cache
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\obj\Debug\Factory_Builder.Properties.Resources.resources
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\obj\Debug\Factory Builder.csproj.GenerateResource.Cache
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\obj\Debug\Factory Builder.exe
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\obj\Debug\Factory Builder.pdb
+C:\Users\Nathaniel\Desktop\Factory Builder\Factory Builder\obj\Debug\Factory_Builder.Game.resources
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\bin\Debug\Factory Builder.exe.config
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory Builder.exe
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory Builder.pdb
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\bin\Debug\Factory Builder.exe
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\bin\Debug\Factory Builder.pdb
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory_Builder.Game.resources
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory_Builder.Properties.Resources.resources
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory Builder.csproj.GenerateResource.Cache
