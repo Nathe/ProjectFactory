@@ -1,0 +1,15 @@
+Game
+- list of entities
+- list of objects
+- player money
+- date & time
+
+Entity
+
+-> Staff
+
+-> Resource
+
+Ploppable
+
+-> Machine
