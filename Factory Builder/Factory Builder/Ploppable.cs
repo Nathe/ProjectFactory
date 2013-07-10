@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Factory_Builder
 {
-    class Ploppable
+    class Ploppable:Entity
     {
+        public Ploppable(int imageIndex, int x, int y)
+            : base(imageIndex, x, y)
+        {
+            
+        }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Reflection;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,48 +14,41 @@ namespace Factory_Builder
 {
     public partial class Game : Form
     {
-        PictureBox picture = new PictureBox();
-
-        int x = 0;
-        int y = 0;
+        int money = 5000;
+        MobileEntity entity = new MobileEntity(0, 0, 0);
+        Ploppable ploppable = new Ploppable(1, 100, 300);
 
         public Game()
         {
+            DoubleBuffered = true;
+
             InitializeComponent();
 
             //Game Loop Timer
             Timer GameTimer = new Timer();
-            GameTimer.Interval = 10;
+            GameTimer.Interval = 1;
             GameTimer.Tick += new EventHandler(GameLoop);
             GameTimer.Start();
 
-            //Debug code
-            picture.SizeMode = PictureBoxSizeMode.StretchImage;
-            picture.Location = new System.Drawing.Point(x, y);
-            picture.Size = new System.Drawing.Size(50, 50);
-            picture.Image = new Bitmap("C:/Users/Nathaniel/Documents/GitHub/ProjectFactory/Factory Builder/Factory Builder/Untitled-1.png");
-            Controls.Add(picture);
-            //End debug code
+            Controls.Add(entity.GetPictureBox());
+            Controls.Add(ploppable.GetPictureBox());
         }
 
         void GameLoop(object sender, EventArgs e)
         {
             ProcessFrame();
             RenderFrame();
-
         }
 
         public void ProcessFrame()
         {
-            x++;
-            y++;
-
+            entity.RunBehaviour();
         }
 
         public void RenderFrame()
         {
-            picture.Location = new System.Drawing.Point(x, y);
-            this.Refresh();
+            labelMoney.Text = money.ToString();
+            Invalidate();
         }
     }
 }

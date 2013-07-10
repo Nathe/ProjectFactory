@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.labelMoney = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Form1
+            // labelMoney
+            // 
+            this.labelMoney.AutoSize = true;
+            this.labelMoney.Location = new System.Drawing.Point(883, 13);
+            this.labelMoney.Name = "labelMoney";
+            this.labelMoney.Size = new System.Drawing.Size(0, 13);
+            this.labelMoney.TabIndex = 0;
+            // 
+            // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 452);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(987, 839);
+            this.Controls.Add(this.labelMoney);
+            this.Name = "Game";
+            this.Text = "Factory Builder v0.01";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label labelMoney;
     }
 }
 
