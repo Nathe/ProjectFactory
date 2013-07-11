@@ -13,3 +13,6 @@ Entity
 Ploppable
 
 -> Machine
+
+Grid
+- 2 dimensional array containing id numbers for objects

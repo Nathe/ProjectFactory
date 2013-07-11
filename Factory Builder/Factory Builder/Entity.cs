@@ -11,17 +11,18 @@ namespace Factory_Builder
     class Entity
     {
         PictureBox _pictureBox = new PictureBox();
-        int _image;
+        int _imageIndex;
 
         public Entity(int imageIndex, int x, int y)
         {
-            _image = imageIndex;
+            _imageIndex = imageIndex;
+            Image image = ImageList.GetImage(_imageIndex);
 
             // Load the image
             _pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             _pictureBox.Location = new System.Drawing.Point(x, y);
-            _pictureBox.Size = new System.Drawing.Size(46, 46);
-            _pictureBox.Image = ImageList.GetImage(_image);
+            _pictureBox.Size = new System.Drawing.Size(image.Width, image.Height);
+            _pictureBox.Image = image;
             _pictureBox.BackColor = Color.Transparent;
         }
 
