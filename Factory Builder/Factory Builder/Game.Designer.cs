@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
             this.labelMoney = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -43,8 +44,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(987, 839);
+            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(959, 839);
             this.Controls.Add(this.labelMoney);
+            this.DoubleBuffered = true;
             this.Name = "Game";
             this.Text = "Factory Builder v0.01";
             this.ResumeLayout(false);

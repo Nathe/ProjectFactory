@@ -24,3 +24,4 @@ C:\Users\Sam\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj
 C:\Users\Sam\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory_Builder.Game.resources
 C:\Users\Sam\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory_Builder.Properties.Resources.resources
 C:\Users\Sam\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory Builder.csproj.GenerateResource.Cache
+C:\Users\Nathaniel\Documents\GitHub\ProjectFactory\Factory Builder\Factory Builder\obj\Debug\Factory Builder.csprojResolveAssemblyReference.cache
